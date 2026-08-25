@@ -1,6 +1,6 @@
 # Technical Trading Strategy Backtester
 
-Jupyter notebook that I build for a simple **Moving Average Crossover**
+Jupyter notebook that I built for a simple **Moving Average Crossover**
 trading strategy, enhances it with an **RSI filter**, and backtests both against a
 **Buy & Hold** benchmark, using real historical data from
 [`yfinance`](https://pypi.org/project/yfinance/).
