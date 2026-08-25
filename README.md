@@ -1,6 +1,6 @@
 # Technical Trading Strategy Backtester
 
-A beginner-friendly Jupyter notebook that builds a simple **Moving Average Crossover**
+Jupyter notebook that I build for a simple **Moving Average Crossover**
 trading strategy, enhances it with an **RSI filter**, and backtests both against a
 **Buy & Hold** benchmark, using real historical data from
 [`yfinance`](https://pypi.org/project/yfinance/).
@@ -33,7 +33,7 @@ Market Data -> Trading Rule -> Historical Backtest -> Performance Analysis -> Ri
 
 ## What's inside
 
-The notebook (`Technical_Trading_Strategy_Backtester.ipynb`) walks through 10 sections:
+The notebook (`Technical_Trading_Strategy_Backtester.ipynb`) will comprise of 10 sections:
 
 1. Introduction
 2. Market data
@@ -57,8 +57,6 @@ explanation above every step.
 pip install -r requirements.txt
 ```
 
-### 2. Launch Jupyter
-
 ```bash
 jupyter notebook
 ```
@@ -66,8 +64,7 @@ jupyter notebook
 Then open `Technical_Trading_Strategy_Backtester.ipynb` and run all cells
 (`Cell > Run All`).
 
-> **Note:** This notebook needs an active internet connection, since it downloads
-> live data from Yahoo Finance each time you run it. Results will look different
+> **Note:** This notebook downloads live data from Yahoo Finance each time you run it. Results will look different
 > every time you re-run it, since the market keeps moving.
 
 ## Project structure
